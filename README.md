@@ -46,13 +46,13 @@ These programs are pretty cool to tinker with, however the number of layers we a
 
 With Transfer Learning you import all the weights from the Deep Learning process done by someone else and discard the last layer of the neural network. You use the last layer to classify and differentiate your target in the images. 
 
-##### MobileNet
+### MobileNet
 ![](https://github.com/Chris-Manna/face_detector/blob/master/TransferLearning:MobileNetConfusionMatrix.png)
 
-##### InceptionNet
+### InceptionNet
 ![](https://github.com/Chris-Manna/face_detector/blob/master/InceptionNetConfusionMatrix.png)
 
-##### VGG16
+### VGG16
 ![](https://github.com/Chris-Manna/face_detector/blob/master/VGG16ConfusionMatrix.png)
 
 
