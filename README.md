@@ -10,6 +10,7 @@ Facial recognition and facial verification with deep learning
 
 ### Obtain
 Using a kaggle DataSet we imported images from around the web for close ups of faces. We collected 3064 number of images. In one folder we have 3064 number of close up human face images from a Kaggle DataSet. In the other folder we have 1377 number of non-human face as well and miscellaneous images. 
+![]()
 
 ### Scrubbing and Cleaning the DataSet
 Once we have the pictures we want to use to train our models we need to prepare them so that they are all the same size and dimensions. For this section, we used the keras.preprocessing.image library to rescale the photos so that they are all the same size, contain the same scaled information representing each pixel, put them in the right directory. 
