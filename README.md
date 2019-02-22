@@ -53,7 +53,7 @@ With Transfer Learning you import all the weights from the Deep Learning process
 ![](https://github.com/Chris-Manna/face_detector/blob/master/InceptionNetConfusionMatrix.png)
 
 ##### VGG16
-![]()
+![](https://github.com/Chris-Manna/face_detector/blob/master/VGG16ConfusionMatrix.png)
 
 
 In each of these dense neural networks, we used first few dense layers and for the final layer, we used a sigmoid function to determine if the image showed a face or not. VGG16 got the best results as it is geared most towards detecting human faces. 
