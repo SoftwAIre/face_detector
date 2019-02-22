@@ -42,15 +42,18 @@ Our training accuracy went down and our F1 scores went down, which does not nece
 ### Transfer Learning
 These programs are pretty cool to tinker with, however the number of layers we are using can not compare to Deep Learning layers. While our neural networks have been run on about 4000 facial images, we are exploring Transfer Learning because these Deep Learning Neural Networks have been run over millions of pictures. When the weights have been tuned on millions of pictures, the weights of each of these nodes have had the opportunity to build a solid foundation and their weights are robust to capture nuances of the target wihtin the photos. 
 
-![]()
+
 
 With Transfer Learning you import all the weights from the Deep Learning process done by someone else and discard the last layer of the neural network. You use the last layer to classify and differentiate your target in the images. 
 
 ##### MobileNet
+![](https://github.com/Chris-Manna/face_detector/blob/master/TransferLearning:MobileNetConfusionMatrix.png)
 
 ##### InceptionNet
+![](https://github.com/Chris-Manna/face_detector/blob/master/InceptionNetConfusionMatrix.png)
 
 ##### VGG16
+![]()
 
 
 In each of these dense neural networks, we used first few dense layers and for the final layer, we used a sigmoid function to determine if the image showed a face or not. VGG16 got the best results as it is geared most towards detecting human faces. 
