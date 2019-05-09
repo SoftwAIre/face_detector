@@ -26,7 +26,7 @@ Then we visualized the training and validation loss functions and compared them 
 
 ![](https://github.com/Chris-Manna/face_detector/blob/master/Densley%20Connected%20Network%20Visualize%20Training:Validation%20Loss.png)
 
-We scored an F1 Score of 99.84%
+We scored an F1 Score of 99.84%.
 
 ### Convolutional Neural Network 
 While the DCN was free floating nodes in a neural network, we use the convolutional neural network to input sequential layers, mixing in different ways for to aggregate the weighted results of each layer. We visualized the results and got an F1 score of 100%
