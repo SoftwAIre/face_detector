@@ -4,7 +4,7 @@
 # Using neural networks 
 
 Facial recognition and facial verification with deep learning
-+ Increased F1 score by 30% using Deep Learning Techniques such as CNNs, DNNs, and Transfer Learning
++ Increased F1 score using Deep Learning Techniques such as CNNs, DNNs, and Transfer Learning
 + Graphed training and validation accuracy to visualize the accuracy and loss fit to prevent overfitting
 + Tested facial verification using Euclidean and Cosine distances metrics on photo similarity matrices
 
