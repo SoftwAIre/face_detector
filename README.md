@@ -1,6 +1,6 @@
 # face_detector
 
-# facial verification, facial detection
+# facial verification, facial detection, face comparison
 # Using neural networks 
 
 Facial recognition and facial verification with deep learning
@@ -9,20 +9,26 @@ Facial recognition and facial verification with deep learning
 + Tested facial verification using Euclidean and Cosine distances metrics on photo similarity matrices
 
 ### Obtain
-Using a kaggle DataSet we imported images from around the web for close ups of faces. We collected 3064 number of images. In one folder we have 3064 number of close up human face images from a Kaggle DataSet. In the other folder we have 1377 number of non-human face as well and miscellaneous images. 
+Using a kaggle DataSet we imported images from around the web for close ups of faces. 
+- 3064 pictures of human faces from a Kaggle DataSet. 
+- 1377 non-human face as well and miscellaneous images. 
 ![](https://github.com/Chris-Manna/face_detector/blob/master/normal_face.png)
 
-### Scrubbing and Cleaning the DataSet
-Once we have the pictures we want to use to train our models we need to prepare them so that they are all the same size and dimensions. For this section, we used the keras.preprocessing.image library to rescale the photos so that they are all the same size, contain the same scaled information representing each pixel, put them in the right directory. 
+### Scrubbing and Cleaning the DataSet - training models.
+- Prepare pictures so that they are all the same size and dimensions. 
+- Used the keras.preprocessing.image library to rescale the photos so that they are all the same size
+- Contain the same scaled information representing each pixel. 
 
 ![](https://github.com/Chris-Manna/face_detector/blob/master/bin_face.png)
 
-We split the images so that we may train our Supervised Machine Learning classification models.
+- Split the images so that we may train our Supervised Machine Learning classification models.
 
 ### Densely Connected Network (DCN)
-We used Densely connected Networks with tensorflow, adding two hidden layers where we tested out different numbers of nodes and activation functions. We used sgd as an optimizer and binary_crossentropy for thirty epochs which yielded a 99.86% accuracy. 
+- We used Densely connected Networks with tensorflow, adding two hidden layers where we tested out different numbers of nodes and activation functions. 
+- We used SGD as an optimizer and binary_crossentropy for thirty epochs which yielded a 99.86% accuracy. 
 
-Then we visualized the training and validation loss functions and compared them against the training and validation accuracy to ensure we would not overfit. We overfit at 60 epochs so we went down to 10 epochs.
+- Visualized the training and validation loss functions and compared them against the training and validation accuracy to ensure we would not overfit. 
+- Overfit at 60 epochs so we went down to 10 epochs.
 
 ![](https://github.com/Chris-Manna/face_detector/blob/master/Densley%20Connected%20Network%20Visualize%20Training:Validation%20Loss.png)
 
