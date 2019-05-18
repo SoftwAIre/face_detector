@@ -1,7 +1,6 @@
-# face_detector
+# face_detector using neural networks
 
 # facial verification, facial detection, face comparison
-# Using neural networks 
 
 Facial recognition and facial verification with deep learning
 + Increased F1 score using Deep Learning Techniques such as CNNs, DNNs, and Transfer Learning
@@ -14,7 +13,7 @@ Using a kaggle DataSet we imported images from around the web for close ups of f
 - 1377 non-human face as well and miscellaneous images. 
 ![](https://github.com/Chris-Manna/face_detector/blob/master/normal_face.png)
 
-### Scrubbing and Cleaning the DataSet - training models.
+### Scrubbing and Cleaning the DataSet
 - Prepare pictures so that they are all the same size and dimensions. 
 - Used the keras.preprocessing.image library to rescale the photos so that they are all the same size
 - Contain the same scaled information representing each pixel. 
@@ -23,10 +22,13 @@ Using a kaggle DataSet we imported images from around the web for close ups of f
 
 - Split the images so that we may train our Supervised Machine Learning classification models.
 
+
+# Training Models
 ### Densely Connected Network (DCN)
 - We used Densely connected Networks with tensorflow, adding two hidden layers where we tested out different numbers of nodes and activation functions. 
 - We used SGD as an optimizer and binary_crossentropy for thirty epochs which yielded a 99.86% accuracy. 
 
+# Evaluating Models
 - Visualized the training and validation loss functions and compared them against the training and validation accuracy to ensure we would not overfit. 
 - Overfit at 60 epochs so we went down to 10 epochs.
 
