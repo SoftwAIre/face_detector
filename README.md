@@ -2,7 +2,7 @@
 
 # facial verification, facial detection, face comparison
 
-Facial recognition and facial verification with deep learning
+Facial recognition and facial verification with deep learning 
 + Increased F1 score using Deep Learning Techniques such as CNNs, DNNs, and Transfer Learning
 + Graphed training and validation accuracy to visualize the accuracy and loss fit to prevent overfitting
 + Tested facial verification using Euclidean and Cosine distances metrics on photo similarity matrices
@@ -21,7 +21,6 @@ Using a kaggle DataSet we imported images from around the web for close ups of f
 ![](https://github.com/Chris-Manna/face_detector/blob/master/bin_face.png)
 
 - Split the images so that we may train our Supervised Machine Learning classification models.
-
 
 # Training Models
 ### Densely Connected Network (DCN)
