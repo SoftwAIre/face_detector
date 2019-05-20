@@ -1,6 +1,6 @@
-# face_detector using neural networks
+# face_detector 
 
-# facial verification, facial detection, face comparison
+Using neural networks to detect faces in pictures. 
 
 Facial recognition and facial verification with deep learning 
 + Increased F1 score using Deep Learning Techniques such as CNNs, DNNs, and Transfer Learning
