@@ -1,22 +1,24 @@
 # face_detector 
 
-Using neural networks to detect faces in pictures. 
+Using neural networks to detect faces in images. 
 
 Facial recognition and facial verification with deep learning 
-+ Increased F1 score using Deep Learning Techniques such as CNNs, DNNs, and Transfer Learning
-+ Graphed training and validation accuracy to visualize the accuracy and loss fit to prevent overfitting
-+ Tested facial verification using Euclidean and Cosine distances metrics on photo similarity matrices
++ Increase F1 score using Deep Learning Techniques such as CNNs, DNNs, and Transfer Learning.
++ Graph training and validation accuracy to visualize the accuracy and loss to prevent overfitting.
++ Test facial verification using Euclidean and Cosine distances metrics on photo similarity matrices.
 
 ### Obtain
-Using a kaggle DataSet we imported images from around the web for close ups of faces. 
+Import images for close ups of faces.
 - 3064 pictures of human faces from a Kaggle DataSet. 
-- 1377 non-human face as well and miscellaneous images. 
+- 1377 non-human face as well and miscellaneous images. (From where?)
 ![](https://github.com/Chris-Manna/face_detector/blob/master/normal_face.png)
+![]() Image from not human images
 
-### Scrubbing and Cleaning the DataSet
-- Prepare pictures so that they are all the same size and dimensions. 
-- Used the keras.preprocessing.image library to rescale the photos so that they are all the same size
+### Scrub and Clean the DataSet
+- Prepare images so that they are all the same size and dimensions. 
 - Contain the same scaled information representing each pixel. 
+Tools used: 
+- Rescale the photos with keras.preprocessing.image library
 
 ![](https://github.com/Chris-Manna/face_detector/blob/master/bin_face.png)
 
