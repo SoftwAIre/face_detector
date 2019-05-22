@@ -1,28 +1,29 @@
 # face_detector 
 
-Using neural networks to detect faces in images. 
+Using neural networks to detect faces in images with 98% accuracy. 
 
-Facial recognition and facial verification with deep learning 
-+ Increase F1 score using Deep Learning Techniques such as CNNs, DNNs, and Transfer Learning.
+Facial recognition and facial verification with deep learning.
++ Using Deep Learning Techniques such as CNNs, DNNs, and Transfer Learning.
 + Graph training and validation accuracy to visualize the accuracy and loss to prevent overfitting.
 + Test facial verification using Euclidean and Cosine distances metrics on photo similarity matrices.
 
+Tools used:
+tensorflow, keras, transfer learning
+
 ### Obtain
-Import images for close ups of faces.
+Import images for close up of faces.
 - 3064 pictures of human faces from a Kaggle DataSet. 
 - 1377 non-human face as well and miscellaneous images. (From where?)
 ![](https://github.com/Chris-Manna/face_detector/blob/master/normal_face.png)
 ![]() Image from not human images
 
 ### Scrub and Clean the DataSet
-- Prepare images so that they are all the same size and dimensions. 
-- Contain the same scaled information representing each pixel. 
+- Prepare images so that they are all the same size and dimensions and contain the same scaled representation of the pixels. 
+- Split the images so that we may train our Supervised Machine Learning classification models.
 Tools used: 
 - Rescale the photos with keras.preprocessing.image library
 
 ![](https://github.com/Chris-Manna/face_detector/blob/master/bin_face.png)
-
-- Split the images so that we may train our Supervised Machine Learning classification models.
 
 # Training Models
 ### Densely Connected Network (DCN)
@@ -42,7 +43,8 @@ While the DCN was free floating nodes in a neural network, we use the convolutio
 ![](https://github.com/Chris-Manna/face_detector/blob/master/Convolutional%20Neural%20Network:%20Vis%20Train:Val%20Loss.png)
 
 ### Drop-out Regularization
-From our last Neural Network, sometimes what can happen is that each node will begin to become very fixed in teh way they interpret different portions of a picture - almost like micro overfitting. To ward against this version of overfitting, we introduced Drop-Out Regularization. Drop-Out Regularization randomly removes the value from a certain percentage of the nodes you are using in your neural network. We chose to remove 50% of the nodes from the subsequent layer. Doing this also allows for a more robust interpreting neural network. 
+From our last Neural Network, sometimes what can happen is that each node will begin to become very fixed in teh way they interpret different portions of a picture - almost like overfitting. 
+- To curb overfitting, we introduced Drop-Out Regularization. Drop-Out Regularization randomly removes the value from a certain percentage of the nodes you are using in your neural network. We chose to remove 50% of the nodes from the subsequent layer. Doing this also allows for a more robust interpreting neural network. 
 
 ![](https://github.com/Chris-Manna/face_detector/blob/master/DropOut%20Regularization%20vis.png)
 
@@ -50,8 +52,6 @@ Our training accuracy went down and our F1 scores went down, which does not nece
 
 ### Transfer Learning
 These programs are pretty cool to tinker with, however the number of layers we are using can not compare to Deep Learning layers. While our neural networks have been run on about 4000 facial images, we are exploring Transfer Learning because these Deep Learning Neural Networks have been run over millions of pictures. When the weights have been tuned on millions of pictures, the weights of each of these nodes have had the opportunity to build a solid foundation and their weights are robust to capture nuances of the target wihtin the photos. 
-
-
 
 With Transfer Learning you import all the weights from the Deep Learning process done by someone else and discard the last layer of the neural network. You use the last layer to classify and differentiate your target in the images. 
 
