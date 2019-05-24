@@ -28,6 +28,7 @@ Tools used:
 # Training Models
 ### Densely Connected Network (DCN)
 - Adding two hidden layers where we tested out different numbers of nodes and activation functions. 
+- Free-floating layers that "evolve" to give the right response. 
 - Optimize using SGD, and binary_crossentropy for thirty epochs which yielded a 99.86% accuracy. 
 Tools used: Tensorflow, SGD, binary_crossentropy
 
@@ -39,19 +40,20 @@ Achieved an F1 Score of 99.84%
 ![](https://github.com/Chris-Manna/face_detector/blob/master/Densley%20Connected%20Network%20Visualize%20Training:Validation%20Loss.png)
 
 ### Convolutional Neural Network 
-Achieved an F1 score of 100%
-While the DCN was free floating nodes in a neural network, 
-we use the convolutional neural network to input sequential layers, 
-mixing in different ways for to aggregate the weighted results of each layer. 
+- Achieving an F1 score of 100% - there is obviously overfitting here. 
+- Using convolutional neural network to input sequential layers.
+- Mixing in different ways for to aggregate the weighted results of each layer. 
 ![](https://github.com/Chris-Manna/face_detector/blob/master/Convolutional%20Neural%20Network:%20Vis%20Train:Val%20Loss.png)
 
 ### Drop-out Regularization
 From our last Neural Network, sometimes what can happen is that each node will begin to become very fixed in the way they interpret different portions of a picture - almost like overfitting. 
-- To curb overfitting, we introduced Drop-Out Regularization. Drop-Out Regularization randomly removes the value from a certain percentage of the nodes you are using in your neural network. We chose to remove 50% of the nodes from the subsequent layer. Doing this also allows for a more robust interpreting neural network. 
+- Addressing overfitting, we introduced Drop-Out Regularization. Drop-Out Regularization randomly removes the value from a certain percentage of the nodes you are using in your neural network. 
+- Removing 50% of the nodes from the subsequent layer allowing for a more robust interpretation of neural network. 
 
 ![](https://github.com/Chris-Manna/face_detector/blob/master/DropOut%20Regularization%20vis.png)
 
-Our training accuracy went down and our F1 scores went down, which does not necessarily mean somehting bad happened. In fact, it may mean that we have a more robust, neural network that is no longer overfitting. 
+- Our training accuracy went down and our F1 scores went down. 
+- Achieved more robust, neural network that is no longer overfitting. 
 
 ### Transfer Learning
 These programs are pretty cool to tinker with, however the number of layers we are using can not compare to Deep Learning layers. While our neural networks have been run on about 4000 facial images, we are exploring Transfer Learning because these Deep Learning Neural Networks have been run over millions of pictures. When the weights have been tuned on millions of pictures, the weights of each of these nodes have had the opportunity to build a solid foundation and their weights are robust to capture nuances of the target wihtin the photos. 
