@@ -2,7 +2,7 @@
 
 Using neural networks to detect faces in images with 98% accuracy. 
 
-Facial recognition and facial verification with deep learning.
+Face detection
 + Using Deep Learning Techniques such as CNNs, DNNs, and Transfer Learning.
 + Graphing training and validation accuracy to visualize the accuracy loss to prevent overfitting.
 + Test facial verification using Euclidean and Cosine distance metrics on photo similarity matrices.
