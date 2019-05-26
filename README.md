@@ -1,14 +1,14 @@
 # face_detector 
-
-Using neural networks to detect faces in images with 98% accuracy. 
+Achieved 98% accuracy detecting faces in images through the use of transfer learning. 
 
 Face detection
-+ Using Deep Learning Techniques such as CNNs, DNNs, and Transfer Learning.
++ Using Deep Learning techniques such as CNNs, DNNs, and Transfer Learning.
 + Graphing training and validation accuracy to visualize the accuracy loss to prevent overfitting.
 + Test facial verification using Euclidean and Cosine distance metrics on photo similarity matrices.
 
 Libraries/Tools used:
-tensorflow, keras.preprocessing.image, transfer learning
+Tensorflow, keras.preprocessing.image, transfer learning
+Transfer learning libraries: MobileNet, InceptionNet, VGG16
 
 ### Obtain
 Import images for close up of faces.
@@ -76,8 +76,4 @@ In each of these dense neural networks, we used first few dense layers and for t
 # Next Steps
 - Incorporate video
 - Facial Verification
-
-
-
-
 
