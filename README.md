@@ -15,7 +15,8 @@ Import images for close up of faces.
 - 3064 pictures of human faces from a Kaggle DataSet. 
 - 1377 non-human face as well and miscellaneous images. (From where?)
 ![](https://github.com/Chris-Manna/face_detector/blob/master/normal_face.png)
-![]() Image from not human images
+![]() 
+Image from not human images
 
 ### Scrub and Clean the DataSet
 - Prepare images so that they are all the same size and dimensions that contain the same scaled representation of pixels. 
