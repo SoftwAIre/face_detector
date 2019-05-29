@@ -7,7 +7,9 @@ Face detection
 + Test facial verification using Euclidean and Cosine distance metrics on photo similarity matrices.
 
 Libraries/Tools used:
-Tensorflow, keras.preprocessing.image, transfer learning
+Tensorflow, keras, transfer learning
+
+keras libraries: keras.preprocessing.image
 Transfer learning libraries: MobileNet, InceptionNet, VGG16
 
 ### Obtain
@@ -41,7 +43,7 @@ Achieved an F1 Score of 99.84%
 ![](https://github.com/Chris-Manna/face_detector/blob/master/Densley%20Connected%20Network%20Visualize%20Training:Validation%20Loss.png)
 
 ### Convolutional Neural Network 
-- Achieving an F1 score of 100% - overfitting here. 
+- Achieving an F1 score of 100% - likely overfitting here?
 - Using convolutional neural network to input sequential layers.
 - Mixing in different ways for to aggregate the weighted results of each layer. 
 ![](https://github.com/Chris-Manna/face_detector/blob/master/Convolutional%20Neural%20Network:%20Vis%20Train:Val%20Loss.png)
@@ -59,7 +61,7 @@ Achieved an F1 Score of 99.84%
 - While neural networks run in this program so far have been run on 4000 facial images the Transfer Learning models used used Deep Learning Neural Networks that have been trained on millions of images. 
 - When the models have been tuned on millions of pictures, the weights of each of these nodes have captured robust nuances of the intended target wihtin the photos. 
 
-With Transfer Learning you import all the weights from the Deep Learning process done by someone else and discard the last layer of the neural network. 
+With Transfer Learning you import all the weights from the Deep Learning process done by someone else and replace the last layer of the neural network to detect what you want. 
 You use the last layer to classify and differentiate your target in the images. 
 
 ### MobileNet
