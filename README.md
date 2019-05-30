@@ -21,7 +21,7 @@ Import images for close up of faces.
 Image from not human images
 
 ### Scrub and Clean the DataSet
-- Prepare images so that they are all the same size and dimensions that contain the same scaled representation of pixels. 
+- Rescale images to the same size and dimensions that contain scaled representation of pixels. 
 - Split the images so that we may train our Supervised Machine Learning classification models.
 Tools used: 
 - Rescale the photos with keras.preprocessing.image library
@@ -51,11 +51,10 @@ Achieved an F1 Score of 99.84%
 ### Drop-out Regularization
 - Addressing overfitting, we introduced Drop-Out Regularization. Drop-Out Regularization randomly removes the value from a certain percentage of the nodes you are using in your neural network. 
 - Removing 50% of the nodes from the subsequent layer allowing for a more robust interpretation of neural network. 
+- Training accuracy went down and our F1 scores went down.  
+- Achieved more robust, neural network.
 
 ![](https://github.com/Chris-Manna/face_detector/blob/master/DropOut%20Regularization%20vis.png)
-
-- Training accuracy went down and our F1 scores went down. 
-- Achieved more robust, neural network. 
 
 ### Transfer Learning
 - While neural networks run in this program so far have been run on 4000 facial images the Transfer Learning models used used Deep Learning Neural Networks that have been trained on millions of images. 
