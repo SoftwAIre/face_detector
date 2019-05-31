@@ -43,13 +43,12 @@ Achieved an F1 Score of 99.84%
 ![](https://github.com/Chris-Manna/face_detector/blob/master/Densley%20Connected%20Network%20Visualize%20Training:Validation%20Loss.png)
 
 ### Convolutional Neural Network 
-- Achieving an F1 score of 100% - likely overfitting here?
+- Achieving an F1 score of 100% - likely overfitting here? Check in on percentage
 - Using convolutional neural network to input sequential layers.
 - Mixing in different ways for to aggregate the weighted results of each layer. 
 ![](https://github.com/Chris-Manna/face_detector/blob/master/Convolutional%20Neural%20Network:%20Vis%20Train:Val%20Loss.png)
 
-### Drop-out Regularization
-- Addressing overfitting, we introduced Drop-Out Regularization. Drop-Out Regularization randomly removes the value from a certain percentage of the nodes you are using in your neural network. 
+### Drop-out Regularization - Addressing overfitting
 - Removing 50% of the nodes from the subsequent layer allowing for a more robust interpretation of neural network. 
 - Training accuracy went down and our F1 scores went down.  
 - Achieved more robust, neural network.
@@ -72,10 +71,12 @@ You use the last layer to classify and differentiate your target in the images.
 ### VGG16
 ![](https://github.com/Chris-Manna/face_detector/blob/master/VGG16ConfusionMatrix.png)
 
+In each of these dense neural networks, we used first few dense layers and for the final layer, 
+- Used a sigmoid function to determine if the image showed a face or not. 
 
-In each of these dense neural networks, we used first few dense layers and for the final layer, we used a sigmoid function to determine if the image showed a face or not. VGG16 got the best results as it is geared most towards detecting human faces. 
+Summary: 
+VGG16 got the best results as it is geared most towards detecting human faces. 
 
 # Next Steps
 - Incorporate video
 - Facial Verification
-
