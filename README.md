@@ -1,7 +1,7 @@
-# face_detector 
+# Face Detector
 Achieved 98% accuracy detecting faces in images through the use of transfer learning. 
 
-Face detection
+Detect Faces
 + Using Deep Learning techniques such as CNNs, DNNs, and Transfer Learning.
 + Graphing training and validation accuracy to visualize the accuracy loss to prevent overfitting.
 + Test facial verification using Euclidean and Cosine distance metrics on photo similarity matrices.
