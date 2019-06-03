@@ -1,5 +1,5 @@
 # Face Detector
-Achieved 98% accuracy detecting faces in images through the use of transfer learning. 
+Achieved 98% accuracy detecting faces in images through the use of Transfer Learning. 
 
 Detect Faces
 + Using Deep Learning techniques such as CNNs, DNNs, and Transfer Learning.
@@ -38,14 +38,15 @@ Tools used: Tensorflow, SGD, binary_crossentropy
 # Evaluating Models: 
 Achieved an F1 Score of 99.84%
 - Visualized the training and validation loss functions and compared them against the training and validation accuracy to ensure we would not overfit. 
-- Overfit at 60 epochs so we went down to 10 epochs.
+- Overfit at 60 epochs.
+- Went down to 10 epochs.
 
 ![](https://github.com/Chris-Manna/face_detector/blob/master/Densley%20Connected%20Network%20Visualize%20Training:Validation%20Loss.png)
 
 ### Convolutional Neural Network 
-- Achieving an F1 score of 100% - likely overfitting here? Check in on percentage
+- Achieving an F1 score of 100% - likely overfitting here.
 - Using convolutional neural network to input sequential layers.
-- Mixing in different ways for to aggregate the weighted results of each layer. 
+- Mixing node equations in different ways for each layer. 
 ![](https://github.com/Chris-Manna/face_detector/blob/master/Convolutional%20Neural%20Network:%20Vis%20Train:Val%20Loss.png)
 
 ### Drop-out Regularization - Addressing overfitting
