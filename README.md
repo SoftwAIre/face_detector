@@ -2,8 +2,8 @@
 Achieved 98% accuracy predicting if a face is in images through the use of Transfer Learning. 
 
 Detect Faces
-+ Using Deep Learning techniques such as CNNs, DNNs, and Transfer Learning.
-+ Graphing training and validation accuracy to visualize the accuracy loss to prevent overfitting.
++ Use Deep Learning techniques such as CNNs, DNNs, and Transfer Learning.
++ Graph training and validation accuracy to visualize the accuracy loss to prevent overfitting.
 + Test facial verification using Euclidean and Cosine distance metrics on photo similarity matrices.
 
 Libraries/Tools used:
@@ -17,7 +17,10 @@ Import images for close up of faces.
 - 3064 pictures of human faces from [faces_data Kaggle DataSet](https://www.kaggle.com/gasgallo/faces-data). 
 - 1377 non-human face as well and miscellaneous images. (From where?)
 ![](https://github.com/Chris-Manna/face_detector/blob/master/normal_face.png)
-![]() 
+
+Add my own face into the dataset.
+
+![]()
 Image from not human images
 
 ### Scrub and Clean the DataSet
