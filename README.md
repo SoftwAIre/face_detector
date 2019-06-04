@@ -26,6 +26,7 @@ Image from not human images
 ### Scrub and Clean the DataSet
 - Rescale images to the same size and dimensions that contain scaled representation of pixels. 
 - Split the images so that we may train our Supervised Machine Learning classification models.
+
 Tools used: 
 - Rescale the photos with keras.preprocessing.image library
 
