@@ -1,5 +1,5 @@
 # Face Detector
-Achieved 98% accuracy detecting faces in images through the use of Transfer Learning. 
+Achieved 98% accuracy predicting if a face is in images through the use of Transfer Learning. 
 
 Detect Faces
 + Using Deep Learning techniques such as CNNs, DNNs, and Transfer Learning.
@@ -14,7 +14,7 @@ Transfer learning libraries: MobileNet, InceptionNet, VGG16
 
 ### Obtain
 Import images for close up of faces.
-- 3064 pictures of human faces from a Kaggle DataSet. 
+- 3064 pictures of human faces from ![faces_data Kaggle DataSet](https://www.kaggle.com/gasgallo/faces-data). 
 - 1377 non-human face as well and miscellaneous images. (From where?)
 ![](https://github.com/Chris-Manna/face_detector/blob/master/normal_face.png)
 ![]() 
