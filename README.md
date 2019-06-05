@@ -18,8 +18,6 @@ Import images for close up of faces.
 - 1377 non-human face as well and miscellaneous images. (From where?)
 ![](https://github.com/Chris-Manna/face_detector/blob/master/normal_face.png)
 
-Add my own face into the dataset.
-
 ![]()
 Image from not human images
 
@@ -77,10 +75,10 @@ You use the last layer to classify and differentiate your target in the images.
 ![](https://github.com/Chris-Manna/face_detector/blob/master/VGG16ConfusionMatrix.png)
 
 In each of these dense neural networks, we used first few dense layers and for the final layer, 
-- Used a sigmoid function to determine if the image showed a face or not. 
+- Use a sigmoid function to determine if the image showed a face or not. 
 
 Summary: 
-VGG16 got the best results as it is geared most towards detecting human faces. 
+Transfer Learning library VGG16 got the best results as it is geared most towards detecting human faces. 
 
 # Next Steps
 - Incorporate video
