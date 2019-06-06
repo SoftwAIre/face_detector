@@ -32,16 +32,15 @@ Tools used:
 
 # Training Models
 ### Densely Connected Network (DCN)
-- Adding two hidden layers where we tested out different numbers of nodes and activation functions. 
-- Free-floating layers that "evolve" to give the right response. 
+- Adding hidden layers, testing different numbers of nodes, and activation functions. 
+- Tested two hidden layers
 - Optimize using SGD, and binary_crossentropy for thirty epochs which yielded a 99.86% accuracy. 
 Tools used: Tensorflow, SGD, binary_crossentropy
 
 # Evaluating Models: 
 Achieved an F1 Score of 99.84%
-- Visualized the training and validation loss functions and compared them against the training and validation accuracy to ensure we would not overfit. 
-- Overfit at 60 epochs.
-- Went down to 10 epochs.
+- Compared training and validation loss functions against training and validation accuracy to ensure good fit. 
+- Overfit at 60 epochs, went down to 10 epochs.
 
 ![](https://github.com/Chris-Manna/face_detector/blob/master/Densley%20Connected%20Network%20Visualize%20Training:Validation%20Loss.png)
 
@@ -59,7 +58,7 @@ Achieved an F1 Score of 99.84%
 ![](https://github.com/Chris-Manna/face_detector/blob/master/DropOut%20Regularization%20vis.png)
 
 ### Transfer Learning
-- While neural networks run in this program so far have been run on 4000 facial images the Transfer Learning models used used Deep Learning Neural Networks that have been trained on millions of images. 
+- While neural networks run in this program so far have been trained on 4000 images, Transfer Learning models used Deep Learning Neural Networks that have been trained on millions of images. 
 - When the models have been tuned on millions of pictures, the weights of each of these nodes have captured robust nuances of the intended target wihtin the photos. 
 
 With Transfer Learning you import all the weights from the Deep Learning process done by someone else and replace the last layer of the neural network to detect what you want. 
