@@ -13,7 +13,7 @@ keras libraries: keras.preprocessing.image
 Transfer learning libraries: MobileNet, InceptionNet, VGG16
 
 ### Obtain
-Import images for close up of faces.
+Import images:
 - 3064 pictures of human faces from [faces_data Kaggle DataSet](https://www.kaggle.com/gasgallo/faces-data). 
 - 1377 non-human face as well and miscellaneous images. (From where?)
 ![](https://github.com/Chris-Manna/face_detector/blob/master/normal_face.png)
@@ -32,8 +32,8 @@ Tools used:
 
 # Training Models
 ### Densely Connected Network (DCN)
-- Adding hidden layers, testing different numbers of nodes, and activation functions. 
-- Tested two hidden layers
+- Adding hidden layers, testing different numbers of nodes and activation functions. 
+- Two hidden layers
 - Optimize using SGD, and binary_crossentropy for thirty epochs which yielded a 99.86% accuracy. 
 Tools used: Tensorflow, SGD, binary_crossentropy
 
