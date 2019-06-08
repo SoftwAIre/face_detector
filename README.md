@@ -37,12 +37,6 @@ Tools used:
 - Optimize using SGD, and binary_crossentropy for thirty epochs which yielded a 99.86% accuracy. 
 Tools used: Tensorflow, SGD, binary_crossentropy
 
-# Evaluating Models: 
-Achieved an F1 Score of 99.84%
-- Compared training and validation loss functions against training and validation accuracy to ensure good fit. 
-- Overfit at 60 epochs, went down to 10 epochs.
-
-![](https://github.com/Chris-Manna/face_detector/blob/master/Densley%20Connected%20Network%20Visualize%20Training:Validation%20Loss.png)
 
 ### Convolutional Neural Network 
 - Achieving an F1 score of 100% - likely overfitting here.
@@ -75,6 +69,14 @@ You use the last layer to classify and differentiate your target in the images.
 
 In each of these dense neural networks, we used first few dense layers and for the final layer, 
 - Use a sigmoid function to determine if the image showed a face or not. 
+
+# Evaluating Models: 
+Achieved an F1 Score of 99.84%
+- Compared training and validation loss functions against training and validation accuracy to ensure good fit. 
+- Overfit at 60 epochs, went down to 10 epochs.
+
+![](https://github.com/Chris-Manna/face_detector/blob/master/Densley%20Connected%20Network%20Visualize%20Training:Validation%20Loss.png)
+
 
 Summary: 
 Transfer Learning library VGG16 got the best results as it is geared most towards detecting human faces. 
