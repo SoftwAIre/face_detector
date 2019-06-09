@@ -64,7 +64,7 @@ You use the last layer to classify and differentiate your target in the images.
 ##### InceptionNet
 ![](https://github.com/Chris-Manna/face_detector/blob/master/InceptionNetConfusionMatrix.png)
 
-##### VGG16
+##### VGG16 here [](https://arxiv.org/abs/1704.04861)
 ![](https://github.com/Chris-Manna/face_detector/blob/master/VGG16ConfusionMatrix.png)
 
 In each of these dense neural networks, we used first few dense layers and for the final layer, 
