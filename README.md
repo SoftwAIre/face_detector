@@ -19,7 +19,7 @@ Import images:
 ![](https://github.com/Chris-Manna/face_detector/blob/master/normal_face.png)
 
 ![]()
-Image from not human images
+From not human images
 
 ### Scrub and Clean the DataSet
 - Rescale images to the same size and dimensions that contain scaled representation of pixels. 
