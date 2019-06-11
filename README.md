@@ -10,7 +10,7 @@ Libraries/Tools used:
 Tensorflow, keras, transfer learning
 
 keras libraries: keras.preprocessing.image
-Transfer learning libraries: MobileNet, InceptionNet, VGG16
+Transfer learning libraries: [MobileNet](), [InceptionNet](), [VGG16]()
 
 ### Obtain
 Import images:
