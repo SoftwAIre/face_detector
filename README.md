@@ -39,20 +39,20 @@ Tools used: Tensorflow, SGD, binary_crossentropy
 
 
 ### Convolutional Neural Network 
-- Achieving an F1 score of 100% - likely overfitting here.
-- Using convolutional neural network to input sequential layers.
-- Mixing node equations in different ways for each layer. 
+- Achieve an F1 score of 100% - likely overfitting here.
+- Use convolutional neural network to input sequential layers.
+- Mix node equations in different ways for each layer. 
 ![](https://github.com/Chris-Manna/face_detector/blob/master/Convolutional%20Neural%20Network:%20Vis%20Train:Val%20Loss.png)
 
 ### Drop-out Regularization - Addressing overfitting
-- Removing 50% of the nodes from the subsequent layer allowing for a more robust interpretation of neural network. 
-- Training accuracy went down and our F1 scores went down.  
-- Achieved more robust, neural network.
+- Remov 50% of the nodes from the subsequent layer allowing for a more robust interpretation of neural network. 
+- Train accuracy went down and our F1 scores went down.  
+- Achieve more robust, neural network.
 
 ![](https://github.com/Chris-Manna/face_detector/blob/master/DropOut%20Regularization%20vis.png)
 
 ##### Transfer Learning
-- While neural networks run in this program so far have been trained on 4000 images, Transfer Learning models used Deep Learning Neural Networks that have been trained on millions of images. 
+- Transfer Learning models used Deep Learning Neural Networks that have been trained on millions of images. 
 - When the models have been tuned on millions of pictures, the weights of each of these nodes have captured robust nuances of the intended target wihtin the photos. 
 
 With Transfer Learning you import all the weights from the Deep Learning process done by someone else and replace the last layer of the neural network to detect what you want. 
@@ -71,9 +71,9 @@ In each of these dense neural networks, we used first few dense layers and for t
 - Use a sigmoid function to determine if the image showed a face or not. 
 
 # Evaluating Models: 
-Achieved an F1 Score of 99.84%
-- Compared training and validation loss functions against training and validation accuracy to ensure good fit. 
-- Overfit at 60 epochs, went down to 10 epochs.
+- Achieve an F1 Score of 99.84%
+- Compare training and validation loss functions against training and validation accuracy to ensure good fit. 
+- Fit at 60 epochs, went down to 10 epochs.
 
 ![](https://github.com/Chris-Manna/face_detector/blob/master/Densley%20Connected%20Network%20Visualize%20Training:Validation%20Loss.png)
 
