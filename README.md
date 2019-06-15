@@ -22,18 +22,13 @@ Import images:
 From not human images
 
 ### Scrub and Clean the DataSet
-- Rescale images to the same size and dimensions that contain scaled representation of pixels. 
-- Split the images so that we may train our Supervised Machine Learning classification models.
-
-Tools used: 
-- Rescale the photos with keras.preprocessing.image library
+- Rescale images to the same size and dimensions that contain scaled representation of pixels with keras.preprocessing.image library. Split the images so that we may train our Supervised Machine Learning classification models.
 
 ![](https://github.com/Chris-Manna/face_detector/blob/master/bin_face.png)
 
 # Training Models
 ### Densely Connected Network (DCN)
-- Adding hidden layers, testing different numbers of nodes and activation functions. 
-- Two hidden layers
+- Adding two hidden layers, testing different numbers of nodes and activation functions. 
 - Optimize using SGD, and binary_crossentropy for thirty epochs which yielded a 99.86% accuracy. 
 Tools used: Tensorflow, SGD, binary_crossentropy
 
