@@ -1,5 +1,5 @@
 # Face Detector
-Achieved 98% accuracy predicting if a face is in images through the use of Transfer Learning. 
+Achieve 98% accuracy predicting if a face is in an image through the use of Transfer Learning. 
 
 Detect Faces
 + Use Deep Learning techniques such as CNNs, DNNs, and Transfer Learning.
@@ -71,7 +71,6 @@ In each of these dense neural networks, we used first few dense layers and for t
 - Fit at 60 epochs, went down to 10 epochs.
 
 ![](https://github.com/Chris-Manna/face_detector/blob/master/Densley%20Connected%20Network%20Visualize%20Training:Validation%20Loss.png)
-
 
 Summary: 
 Transfer Learning library VGG16 got the best results as it is geared most towards detecting human faces. 
