@@ -1,7 +1,6 @@
-# Face Detector
-Achieve 98% accuracy predicting if a face is in an image through the use of Transfer Learning. 
+# Face Detection
 
-Detect Faces
+Detect faces in images through the use of Transfer Learning. 
 + Use Deep Learning techniques such as CNNs, DNNs, and Transfer Learning.
 + Graph training and validation accuracy to visualize the accuracy loss to prevent overfitting.
 + Test facial verification using Euclidean and Cosine distance metrics on photo similarity matrices.
@@ -31,7 +30,6 @@ From not human images
 - Adding two hidden layers, testing different numbers of nodes and activation functions. 
 - Optimize using SGD, and binary_crossentropy for thirty epochs which yielded a 99.86% accuracy. 
 Tools used: Tensorflow, SGD, binary_crossentropy
-
 
 ### Convolutional Neural Network 
 - Achieve an F1 score of 100% - likely overfitting here.
