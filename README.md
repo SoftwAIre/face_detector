@@ -9,7 +9,7 @@ Libraries/Tools used:
 Tensorflow, keras, transfer learning
 
 keras libraries: keras.preprocessing.image
-Transfer learning libraries: [MobileNet](https://arxiv.org/abs/1704.04861), [InceptionNet](arXiv.org › pdfPDF Rethinking the Inception Architecture for Computer Vision) [VGG16]()
+Transfer learning libraries: [MobileNet](https://arxiv.org/abs/1704.04861), [InceptionNet](https://www.google.com/url?sa=t&source=web&rct=j&url=https://arxiv.org/pdf/1512.00567&ved=2ahUKEwjTkZGvvvXiAhVoplkKHRYODrYQFjABegQIAhAB&usg=AOvVaw07XYD-emLWnvSCw_uAfnRi) [VGG16]()
 
 ### Obtain
 Import images:
