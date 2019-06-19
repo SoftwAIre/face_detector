@@ -1,4 +1,4 @@
-# Face Detection
+# Face Detector
 
 Detect faces in images through the use of Transfer Learning. 
 + Use Deep Learning techniques such as CNNs, DNNs, and Transfer Learning.
@@ -74,5 +74,6 @@ Summary:
 Transfer Learning library VGG16 got the best results as it is geared most towards detecting human faces. 
 
 # Next Steps
-- Incorporate video
-- Facial Verification
+- Incorporate video.
+- Facial Verification.
+- Implement on Raspberry Pi for Open Saysme project.
