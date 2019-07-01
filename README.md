@@ -44,20 +44,20 @@ Tools used: Tensorflow, SGD, binary_crossentropy
 
 ![](https://github.com/Chris-Manna/face_detector/blob/master/DropOut%20Regularization%20vis.png)
 
-##### Transfer Learning
+### Transfer Learning
 With Transfer Learning you import all the weights from the Deep Learning process done by someone else and replace the last layer of the neural network to detect what you want. 
 You use the last layer to classify and differentiate your target in the images. 
 - Transfer Learning models used Deep Learning Neural Networks that have been trained on millions of images. 
 - When the models have been tuned on millions of pictures, the weights of each of these nodes have captured robust nuances of the intended target wihtin the photos. 
 
 
-##### MobileNet
+### MobileNet
 ![](https://github.com/Chris-Manna/face_detector/blob/master/TransferLearning:MobileNetConfusionMatrix.png)
 
-##### InceptionNet
+### InceptionNet
 ![](https://github.com/Chris-Manna/face_detector/blob/master/InceptionNetConfusionMatrix.png)
 
-##### VGG16 here [](https://arxiv.org/abs/1704.04861)
+### VGG16 here [](https://arxiv.org/abs/1704.04861)
 ![](https://github.com/Chris-Manna/face_detector/blob/master/VGG16ConfusionMatrix.png)
 
 In each of these dense neural networks, we used first few dense layers and for the final layer, 
