@@ -8,7 +8,7 @@ Detect faces in images through the use of Transfer Learning.
 Libraries/Tools used:
 Tensorflow, keras, transfer learning
 
-keras libraries: keras.preprocessing.image
+Libraries: keras.preprocessing.image
 Transfer learning libraries: [MobileNet](https://arxiv.org/abs/1704.04861), [InceptionNet](https://www.google.com/url?sa=t&source=web&rct=j&url=https://arxiv.org/pdf/1512.00567&ved=2ahUKEwjTkZGvvvXiAhVoplkKHRYODrYQFjABegQIAhAB&usg=AOvVaw07XYD-emLWnvSCw_uAfnRi), [VGG16](https://neurohive.io/en/popular-networks/vgg16/)
 
 ### Obtain
