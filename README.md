@@ -18,10 +18,11 @@ Import images:
 ![](https://github.com/Chris-Manna/face_detector/blob/master/normal_face.png)
 
 ![]()
-From not human images
+Example from not human images
 
 ### Scrub and Clean the DataSet
-- Rescale images to the same size and dimensions that contain scaled representation of pixels with keras.preprocessing.image library. Split the images so that we may train our Supervised Machine Learning classification models.
+- Rescale images to the same size and dimensions with keras.preprocessing.image library. 
+- Split the images so that we may train our Supervised Machine Learning classification models.
 
 ![](https://github.com/Chris-Manna/face_detector/blob/master/bin_face.png)
 
