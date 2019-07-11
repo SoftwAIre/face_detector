@@ -17,16 +17,16 @@ Import images:
 - 1377 non-human face as well and miscellaneous images. (From where?)
 ![](https://github.com/Chris-Manna/face_detector/blob/master/normal_face.png)
 
-![]()
-Example from not human images
-
 ### Scrub and Clean the DataSet
-- Rescale images to the same size and dimensions with keras.preprocessing.image library. 
+- Rescale images to the same dimensions with keras.preprocessing.image library. 
 - Split the images so that we may train our Supervised Machine Learning classification models.
 
 ![](https://github.com/Chris-Manna/face_detector/blob/master/bin_face.png)
 
-# Train Models
+# Training Models
+Densely Connected Networks, Convolutional Neural Networks
+Transfer Learning Packages
+
 ### Densely Connected Network (DCN)
 - Adding two hidden layers, testing different numbers of nodes and activation functions. 
 - Optimize using SGD, and binary_crossentropy for thirty epochs which yielded a 99.86% accuracy. 
