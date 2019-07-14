@@ -9,7 +9,7 @@ Libraries/Tools used:
 Tensorflow, keras, transfer learning
 
 Libraries: keras.preprocessing.image
-Transfer learning libraries: [MobileNet](https://arxiv.org/abs/1704.04861), [InceptionNet](https://www.google.com/url?sa=t&source=web&rct=j&url=https://arxiv.org/pdf/1512.00567&ved=2ahUKEwjTkZGvvvXiAhVoplkKHRYODrYQFjABegQIAhAB&usg=AOvVaw07XYD-emLWnvSCw_uAfnRi), [VGG16](https://neurohive.io/en/popular-networks/vgg16/)
+Transfer Learning Libraries: [MobileNet](https://arxiv.org/abs/1704.04861), [InceptionNet](https://www.google.com/url?sa=t&source=web&rct=j&url=https://arxiv.org/pdf/1512.00567&ved=2ahUKEwjTkZGvvvXiAhVoplkKHRYODrYQFjABegQIAhAB&usg=AOvVaw07XYD-emLWnvSCw_uAfnRi), [VGG16](https://neurohive.io/en/popular-networks/vgg16/)
 
 ### Obtain
 Import images:
@@ -71,7 +71,7 @@ In each of these dense neural networks, we used first few dense layers and for t
 ![](https://github.com/Chris-Manna/face_detector/blob/master/Densley%20Connected%20Network%20Visualize%20Training:Validation%20Loss.png)
 
 Summary: 
-Transfer Learning library VGG16 got the best results as it is geared most towards detecting human faces. 
+Transfer Learning library VGG16 got the best results.
 
 # Next Steps
 - Incorporate video.
