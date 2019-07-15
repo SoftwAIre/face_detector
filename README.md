@@ -60,8 +60,8 @@ Explanation: Models have been tuned on millions of pictures, the weights of each
 ### VGG16 here [](https://arxiv.org/abs/1704.04861)
 ![](https://github.com/Chris-Manna/face_detector/blob/master/VGG16ConfusionMatrix.png)
 
-In each of these dense neural networks, we used first few dense layers and for the final layer, 
-- Use a sigmoid function to determine if the image showed a face or not. 
+
+- Use a sigmoid function to determine if the image showed a face or not for the last layers. 
 
 # Evaluating Models: 
 - Achieve an F1 Score of 99.84%
