@@ -9,7 +9,9 @@ Libraries/Tools used:
 Tensorflow, keras, transfer learning
 
 Libraries: keras.preprocessing.image
+Densely Connected Networks, Convolutional Neural Networks
 Transfer Learning Libraries: [MobileNet](https://arxiv.org/abs/1704.04861), [InceptionNet](https://www.google.com/url?sa=t&source=web&rct=j&url=https://arxiv.org/pdf/1512.00567&ved=2ahUKEwjTkZGvvvXiAhVoplkKHRYODrYQFjABegQIAhAB&usg=AOvVaw07XYD-emLWnvSCw_uAfnRi), [VGG16](https://neurohive.io/en/popular-networks/vgg16/)
+
 
 ### Obtain
 Import images:
@@ -24,9 +26,6 @@ Import images:
 ![](https://github.com/Chris-Manna/face_detector/blob/master/bin_face.png)
 
 # Training Models
-Densely Connected Networks, Convolutional Neural Networks
-Transfer Learning Packages
-
 ### Densely Connected Network (DCN)
 - Adding two hidden layers, testing different numbers of nodes and activation functions. 
 - Optimize using SGD, and binary_crossentropy for thirty epochs which yielded a 99.86% accuracy. 
