@@ -13,13 +13,14 @@ Densely Connected Networks, Convolutional Neural Networks
 Transfer Learning Libraries: [MobileNet](https://arxiv.org/abs/1704.04861), [InceptionNet](https://www.google.com/url?sa=t&source=web&rct=j&url=https://arxiv.org/pdf/1512.00567&ved=2ahUKEwjTkZGvvvXiAhVoplkKHRYODrYQFjABegQIAhAB&usg=AOvVaw07XYD-emLWnvSCw_uAfnRi), [VGG16](https://neurohive.io/en/popular-networks/vgg16/)
 
 
-### Obtain
+# Obtain
 Import images:
 - 3064 pictures of human faces from [faces_data Kaggle DataSet](https://www.kaggle.com/gasgallo/faces-data). 
-- 1377 non-human face as well and miscellaneous images. (From where?)
 ![](https://github.com/Chris-Manna/face_detector/blob/master/normal_face.png)
 
-### Scrub and Clean the DataSet
+- 1377 non-human faces and miscellaneous images.
+
+# Scrub and Clean the DataSet
 - Rescale images to the same dimensions with keras.preprocessing.image library. 
 - Split the images so that we may train our Supervised Machine Learning classification models.
 
@@ -69,10 +70,13 @@ Explanation: Models have been tuned on millions of pictures, the weights of each
 
 ![](https://github.com/Chris-Manna/face_detector/blob/master/Densley%20Connected%20Network%20Visualize%20Training:Validation%20Loss.png)
 
-Summary: 
+# Implement
+During live display, get individual images and test individual images using the model.
+
+# Summary
 Transfer Learning library VGG16 got the best results.
 
 # Next Steps
 - Incorporate video.
 - Facial Verification.
-- Implement on Raspberry Pi for Open Saysme project.
+- Implement on Raspberry Pi.
