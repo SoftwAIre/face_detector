@@ -10,8 +10,7 @@ Tensorflow, keras, transfer learning
 
 Libraries: keras.preprocessing.image
 Densely Connected Networks, Convolutional Neural Networks
-Transfer Learning Libraries: [MobileNet](https://arxiv.org/abs/1704.04861), [InceptionNet](https://www.google.com/url?sa=t&source=web&rct=j&url=https://arxiv.org/pdf/1512.00567&ved=2ahUKEwjTkZGvvvXiAhVoplkKHRYODrYQFjABegQIAhAB&usg=AOvVaw07XYD-emLWnvSCw_uAfnRi), [VGG16](https://neurohive.io/en/popular-networks/vgg16/)
-
+Transfer Learning Libraries: MobileNet, InceptionNet, VGG16
 
 # Obtain
 Import images:
