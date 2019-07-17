@@ -38,7 +38,7 @@ Tools used: Tensorflow, SGD, binary_crossentropy
 ![](https://github.com/Chris-Manna/face_detector/blob/master/Convolutional%20Neural%20Network:%20Vis%20Train:Val%20Loss.png)
 
 ### Drop-out Regularization - Addressing overfitting
-- Remov 50% of the nodes from the subsequent layer allowing for a more robust interpretation of neural network. 
+- Remove 50% of the nodes from the subsequent layer allowing for a more robust interpretation of neural network. 
 - Train accuracy went down and our F1 scores went down.  
 - Achieve more robust, neural network.
 
