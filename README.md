@@ -29,7 +29,7 @@ Import images:
 Tools used: Tensorflow, SGD, binary_crossentropy
 
 ### Convolutional Neural Network 
-- Achieve an F1 score of 100% - likely overfitting here.
+- Achieve an F1 score of 100%.
 - Use convolutional neural network to input sequential layers.
 - Mix node equations in different ways for each layer. 
 ![](https://github.com/Chris-Manna/face_detector/blob/master/Convolutional%20Neural%20Network:%20Vis%20Train:Val%20Loss.png)
