@@ -1,7 +1,7 @@
 # Face Detector
 
 Detect faces in images through the use of Transfer Learning. 
-+ Use Deep Learning techniques such as CNNs, DNNs, and Transfer Learning.
++ Use Deep Learning techniques CNNs, DNNs, and Transfer Learning.
 + Graph training and validation accuracy to visualize the accuracy loss to prevent overfitting.
 + Test facial verification using Euclidean and Cosine distance metrics on photo similarity matrices.
 
