@@ -61,7 +61,7 @@ Explanation: Models have been tuned on millions of pictures, the weights of each
 # Evaluating Models: 
 - Achieve an F1 Score of 99.84%
 - Compare training and validation loss functions against training and validation accuracy to ensure good fit. 
-- Fit at 60 epochs, went down to 10 epochs.
+- Overfit at 60 epochs, went down to 10 epochs.
 
 ![](https://github.com/Chris-Manna/face_detector/blob/master/Densley%20Connected%20Network%20Visualize%20Training:Validation%20Loss.png)
 
