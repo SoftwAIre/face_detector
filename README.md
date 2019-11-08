@@ -17,7 +17,7 @@ Import images:
 
 # Scrub and Clean the DataSet
 - Rescale images to the same dimensions with keras.preprocessing.image library. 
-- Split the images so that we may train our Supervised Machine Learning classification models.
+- Split the images to train our Supervised Machine Learning classification models.
 
 ![](https://github.com/Chris-Manna/face_detector/blob/master/bin_face.png)
 
