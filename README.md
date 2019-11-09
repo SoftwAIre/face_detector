@@ -69,7 +69,7 @@ Explanation: Models have been tuned on millions of pictures, the weights of each
 During live display, test individual images using the model.
 
 # Summary
-Transfer Learning library VGG16 got the best results.
+The best results were achieved through Transfer Learning library VGG16.
 
 # Next Steps
 - Incorporate video.
