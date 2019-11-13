@@ -53,8 +53,7 @@ Explanation: Models have been tuned on millions of pictures, the weights of each
 ![](https://github.com/Chris-Manna/face_detector/blob/master/InceptionNetConfusionMatrix.png)
 
 ### VGG16 here [](https://arxiv.org/abs/1704.04861)
-![](https://github.com/Chris-Manna/face_detector/blob/master/VGG16ConfusionMatrix.png)
-
+![]()
 
 - Use a sigmoid function to determine if the image showed a face or not for the last layers. 
 
