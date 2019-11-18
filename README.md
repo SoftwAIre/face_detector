@@ -73,4 +73,4 @@ The best results were achieved through Transfer Learning library VGG16.
 # Next Steps
 - Incorporate video.
 - Facial Verification.
-- Implement on Raspberry Pi.
+- Implement on Arduino project.
