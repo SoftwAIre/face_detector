@@ -5,7 +5,7 @@ Detect faces in images through the use of Transfer Learning.
 + Graph training and validation accuracy to visualize the accuracy loss to prevent overfitting.
 + Test facial verification using Euclidean and Cosine distance metrics on photo similarity matrices.
 
-Technology used: Densely Connected Networks, Convolutional Neural Networks
+Technologies used: Densely Connected Networks, Convolutional Neural Networks
 Transfer Learning Libraries: MobileNet, InceptionNet, VGG16
 
 # Obtain
