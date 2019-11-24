@@ -65,7 +65,7 @@ Explanation: Models have been tuned on millions of pictures, the weights of each
 ![](https://github.com/Chris-Manna/face_detector/blob/master/Densley%20Connected%20Network%20Visualize%20Training:Validation%20Loss.png)
 
 # Implement
-Tested individual images using the model.
+- Test individual images using the model.
 
 # Summary
 The best results were achieved through Transfer Learning library VGG16.
